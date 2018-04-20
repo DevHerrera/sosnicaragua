@@ -1,19 +1,21 @@
 // Keep your keys secret.
 
-export const port = 3000
-export const google = {
-  clientID: '',
-  secretID: '',
-}
-export const facebook = {
-  clientID: '',
-  secretID: '',
-}
-export const twitter = {
-  clientID: '',
-  secretID: '',
-}
-export const moongose = {
-  user: '',
-  passwd: '',
+module.exports = {
+  port : 3000,
+  google : {
+    clientID: '',
+    secret: '',
+  },
+  facebook : {
+    clientID: '',
+    secret: '',
+  },
+  twitter : {
+    clientID: '',
+    secret: '',
+  },
+  moongose : {
+    user: '',
+    passwd: '',
+  },
 }
