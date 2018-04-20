@@ -18,4 +18,7 @@ module.exports = {
     user: '',
     passwd: '',
   },
+  session : {
+    key: ''
+  },
 }
