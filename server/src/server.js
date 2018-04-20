@@ -9,7 +9,7 @@ const config = require('./config')
 const app = express()
 
 // Database set up
-const mongoDB = 'mongodb://sosnicuser:development@ds251889.mlab.com:51889/sosnicaragua'
+const mongoDB = `mongodb://${config.moongose.user}:${config.moongose.passwd}@ds251889.mlab.com:51889/sosnicaragua`
 mongoose.connect(mongoDB, {
 
 })

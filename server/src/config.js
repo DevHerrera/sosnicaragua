@@ -1,4 +1,19 @@
-module.exports = {
-  port: 3000,
-  secret: 'this_is_very_secret'
+// Keep your keys secret.
+
+export const port = 3000
+export const google = {
+  clientID: '',
+  secretID: '',
+}
+export const facebook = {
+  clientID: '',
+  secretID: '',
+}
+export const twitter = {
+  clientID: '',
+  secretID: '',
+}
+export const moongose = {
+  user: '',
+  passwd: '',
 }
